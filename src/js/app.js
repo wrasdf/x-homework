@@ -93,8 +93,6 @@ var data = [
     }
 ]
 
-
-
 function ResourceDialog() {
     this.wrapper = $('.dialog');
     this.resources = $('#resourceValue');
@@ -190,7 +188,6 @@ function ZoneManager (options){
     this._render();
 
 }
-
 ZoneManager.prototype = {
     _render : function(){
         var zoneList = $(".zone-list");
@@ -203,11 +200,9 @@ ZoneManager.prototype = {
                     data: d
                 });
             });
-        })
+        });
     }
 };
-
-
 
 function ZoneSection (options){
 
@@ -224,7 +219,6 @@ function ZoneSection (options){
     this._render();
 
 }
-
 ZoneSection.prototype = {
 
     _render : function(){
@@ -288,7 +282,6 @@ function SideBarManager(options){
     this.data = options.data;
     this.update();
 }
-
 SideBarManager.prototype = {
     update : function (){
         var zone1 = 0 , zone2 = 0;
@@ -302,14 +295,3 @@ SideBarManager.prototype = {
         this.wrapper.html('<li>Zone1  '+zone1+'</li><li>Zone2  '+zone2+'</li>');
     }
 };
-
-
-
-
-
-
-
-
-
-
-

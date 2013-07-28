@@ -5,4 +5,4 @@ $(function(){
     new SideBarManager({
         data : data
     });
-})
+});

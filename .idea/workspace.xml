@@ -6,8 +6,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374993154002" ignored="false" />
     <file path="/compass.config" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974246695" ignored="false" />
-    <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974649515" ignored="false" />
-    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984618753" ignored="false" />
+    <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375014562046" ignored="false" />
+    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375016014897" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
     <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374991727597" ignored="false" />
     <file path="/SpecRunner.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374992415601" ignored="false" />
@@ -75,19 +75,36 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="297" column="58" selection-start="8061" selection-end="8061" vertical-scroll-proportion="0.0">
+            <state line="94" column="28" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#11#2612#0" expanded="false" />
+                <element signature="n#!!block;n#ResourceDialog#0" expanded="false" />
+                <element signature="e#2835#4200#0" expanded="false" />
+                <element signature="n#!!block;n#ZoneManager#0" expanded="false" />
+                <element signature="e#5217#5658#0" expanded="false" />
+                <element signature="n#!!block;n#ZoneSection#0" expanded="false" />
+                <element signature="e#5989#7727#0" expanded="false" />
+                <element signature="n#!!block;n#SideBarManager#0" expanded="false" />
+                <element signature="e#7878#8195#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="31" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appSpec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/spec/appSpec.js">
+      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="63" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#108#2228#0" expanded="false" />
-              </folding>
+            <state line="27" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="-3.5926967">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,16 +112,7 @@
       <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="107" selection-start="228" selection-end="228" vertical-scroll-proportion="0.13081396">
+            <state line="8" column="8" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,8 +121,53 @@
       <file leaf-file-name="index-template.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="28" selection-start="2062" selection-end="2062" vertical-scroll-proportion="-26.875">
+            <state line="18" column="24" selection-start="528" selection-end="528" vertical-scroll-proportion="-11.25">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="89" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-13.125">
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="46" selection-start="3680" selection-end="3680" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1375016116000" expanded="true" signature="443:461" placeholder="{...}" />
+                <marker date="1375016116000" expanded="true" signature="492:627" placeholder="{...}" />
+                <marker date="1375016116000" expanded="true" signature="3240:3319" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/spec/appSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="12" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#108#2228#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,17 +187,17 @@
         <option value="$PROJECT_DIR$/src/config/compass.rb" />
         <option value="$PROJECT_DIR$/src/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/src/config/config.rb" />
-        <option value="$PROJECT_DIR$/src/config.rb" />
         <option value="$PROJECT_DIR$/src/css/app.css" />
         <option value="$PROJECT_DIR$/src/sass/common.scss" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/sass/app.scss" />
-        <option value="$PROJECT_DIR$/src/index-template.html" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
-        <option value="$PROJECT_DIR$/src/js/init.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/test/SpecRunner.html" />
         <option value="$PROJECT_DIR$/test/spec/appSpec.js" />
+        <option value="$PROJECT_DIR$/src/js/init.js" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/config.rb" />
+        <option value="$PROJECT_DIR$/src/index-template.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -182,7 +235,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,6 +250,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,6 +321,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -264,8 +331,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
@@ -288,6 +356,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -318,19 +399,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -344,6 +412,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -365,13 +440,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -485,7 +553,10 @@
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="43" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,51 +576,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="25" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/lib/jasmine-1.3.1/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="127" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="958" selection-end="958" vertical-scroll-proportion="0.32188842">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.42918456">
-          <folding />
-        </state>
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
@@ -559,39 +598,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="58" selection-start="8061" selection-end="8061" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/appSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="63" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0">
+        <state line="77" column="12" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#108#2228#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="8" column="8" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="28" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#11#2612#0" expanded="false" />
+            <element signature="n#!!block;n#ResourceDialog#0" expanded="false" />
+            <element signature="e#2835#4200#0" expanded="false" />
+            <element signature="n#!!block;n#ZoneManager#0" expanded="false" />
+            <element signature="e#5217#5658#0" expanded="false" />
+            <element signature="n#!!block;n#ZoneSection#0" expanded="false" />
+            <element signature="e#5989#7727#0" expanded="false" />
+            <element signature="n#!!block;n#SideBarManager#0" expanded="false" />
+            <element signature="e#7878#8195#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="28" selection-start="2062" selection-end="2062" vertical-scroll-proportion="-26.875">
+        <state line="18" column="24" selection-start="528" selection-end="528" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="107" selection-start="228" selection-end="228" vertical-scroll-proportion="0.13081396">
+        <state line="32" column="89" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-13.125">
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="46" selection-start="3680" selection-end="3680" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1375016116000" expanded="true" signature="443:461" placeholder="{...}" />
+            <marker date="1375016116000" expanded="true" signature="492:627" placeholder="{...}" />
+            <marker date="1375016116000" expanded="true" signature="3240:3319" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="-3.5926967">
           <folding />
         </state>
       </provider>
