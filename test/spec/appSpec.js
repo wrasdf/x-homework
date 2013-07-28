@@ -67,7 +67,6 @@ describe("Zone Section",function(){
                 ]
             }
         ];
-
         zoneSection = new ZoneSection({data:data[1]["sections"][1]});
 
     });
@@ -80,6 +79,11 @@ describe("Zone Section",function(){
         $('section').find('.close').eq(0).click();
         expect($('section').find("ul li").length).toBe(1);
         expect(data[1]["sections"][1].list.length).toBe(1);
+
+        $('section').find('.close').eq(0).click();
+        expect($('section').find("ul li").length).toBe(0);
+        expect(data[1]["sections"][1].list.length).toBe(0);
+
     });
 
     it("should return correct dom and data when user add resource", function(){
