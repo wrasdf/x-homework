@@ -15,7 +15,8 @@ var data = [
                 name : "Registrant contact",
                 list : [
                     {"name" : "Contact1"},
-                    {"name" : "Contact2"}
+                    {"name" : "Contact2"},
+                    {"name" : "Contact3"}
                 ]
             },
             {
@@ -46,7 +47,8 @@ var data = [
                 name : "Registrant contact",
                 list : [
                     {"name" : "Contact1"},
-                    {"name" : "Contact2"}
+                    {"name" : "Contact2"},
+                    {"name" : "Contact3"}
                 ]
             },
             {
@@ -77,7 +79,8 @@ var data = [
                 name : "Registrant contact",
                 list : [
                     {"name" : "Contact1"},
-                    {"name" : "Contact2"}
+                    {"name" : "Contact2"},
+                    {"name" : "Contact3"}
                 ]
             },
             {
