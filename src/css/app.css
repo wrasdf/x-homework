@@ -1,18 +1,27 @@
 .clear { clear: both; font-size: 0; line-height: 0; }
 
-.clearfix, .main-container .zone-list > li { *zoom: 1; }
-.clearfix:before, .main-container .zone-list > li:before, .clearfix:after, .main-container .zone-list > li:after { display: table; line-height: 0; content: ""; }
-.clearfix:after, .main-container .zone-list > li:after { clear: both; }
+.clearfix, .main-container, .main-container .zone-list > li { *zoom: 1; }
+.clearfix:before, .main-container:before, .main-container .zone-list > li:before, .clearfix:after, .main-container:after, .main-container .zone-list > li:after { display: table; line-height: 0; content: ""; }
+.clearfix:after, .main-container:after, .main-container .zone-list > li:after { clear: both; }
 
 .wrapper { padding: 10px; }
 
 .sidebar { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 300px; float: right; padding: 0 20px 0; }
+.sidebar section { border: 1px #000 solid; }
+.sidebar section h3 { border-bottom: 1px #000 solid; line-height: 30px; padding-left: 5px; }
+.sidebar section ul { margin: 5px 0; }
+.sidebar section ul li { padding: 5px; line-height: 20px; }
 
-.main-container { margin-right: 300px; }
+.main-container { margin-right: 300px; padding-right: 20px; border-right: 1px #000 solid; }
 .main-container header .category-list { display: block; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-orient: horizontal; -moz-box-orient: horizontal; -ms-box-orient: horizontal; box-orient: horizontal; -webkit-box-align: stretch; -moz-box-align: stretch; -ms-box-align: stretch; box-align: stretch; border: 1px #000 solid; }
 .main-container header .category-list li { border-left: 1px #000 solid; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; text-align: center; line-height: 50px; }
 .main-container header .category-list li:first-child { border-left: 0; }
 .main-container header h1 { line-height: 50px; font-size: 30px; text-align: center; }
-.main-container .zone-list > li { padding: 10px; border: 1px #000 solid; }
-.main-container .zone-list > li h2 { line-height: 30px; text-align: left; }
-.main-container .zone-list > li section { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; width: 33.33%; }
+.main-container .zone-list > li { border: 1px #000 solid; }
+.main-container .zone-list > li h2 { line-height: 30px; text-align: left; border-bottom: 1px #000 solid; padding-left: 10px; }
+.main-container .zone-list > li section { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; width: 33.33%; border-left: 1px #000 solid; padding: 10px; }
+.main-container .zone-list > li section h3 { line-height: 20px; border-bottom: 1px #ccc dashed; margin-bottom: 5px; padding-bottom: 5px; }
+.main-container .zone-list > li section ul li { line-height: 25px; }
+.main-container .zone-list > li section ul li .close { float: right; line-height: 15px; font-size: 15px; border: 1px #000 solid; margin: 5px 20px 0 0; }
+.main-container .zone-list > li section input[type=button] { border: 1px #000 solid; padding: 5px; margin: 0; }
+.main-container .zone-list > li section:nth-child(2) { border: 0; }

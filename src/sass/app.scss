@@ -18,15 +18,43 @@
 }
 
 .sidebar{
+
   @include box-sizing(border-box);
   width: 300px;
   float:right;
   padding:0 20px 0;
+
+  section {
+
+    border: 1px #000 solid;
+
+    h3{
+      border-bottom: 1px #000 solid;
+      line-height: 30px;
+      padding-left: 5px;
+    }
+
+    ul{
+      margin: 5px 0;
+      li{
+        padding: 5px;
+        line-height: 20px;
+      }
+
+    }
+
+
+  }
+
 }
 
 .main-container{
 
+  @extend .clearfix;
+
   margin-right: 300px;
+  padding-right: 20px;
+  border-right: 1px #000 solid;
 
   header {
 
@@ -62,18 +90,64 @@
 
     & > li{
       @extend .clearfix;
-      padding: 10px;
       border: 1px #000 solid;
 
       h2{
         line-height: 30px;
         text-align: left;
+        border-bottom: 1px #000 solid;
+        padding-left: 10px;
       }
+
       section{
+
         @include box-sizing(border-box);
         float: left;
         width:33.33%;
+        border-left: 1px #000 solid;
+        padding:10px;
+
+        h3{
+          line-height: 20px;
+          border-bottom: 1px #ccc dashed;
+          margin-bottom: 5px;
+          padding-bottom: 5px;
+        }
+
+        ul {
+
+          li{
+
+            line-height: 25px;
+
+            .close{
+              float: right;
+              line-height: 15px;
+              font-size: 15px;
+              border: 1px #000 solid;
+              margin:5px 20px 0 0;
+            }
+
+
+
+          }
+
+        }
+
+        input[type=button] {
+
+          border: 1px #000 solid;
+          padding: 5px;
+          margin: 0;
+
+        }
+
+
       }
+
+      section:nth-child(2){
+        border: 0;
+      };
 
     }
 
