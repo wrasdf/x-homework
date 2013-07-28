@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977476876" ignored="false" />
     <file path="/compass.config" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974246695" ignored="false" />
     <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974649515" ignored="false" />
-    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374979244698" ignored="false" />
+    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374981540914" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="26" selection-start="698" selection-end="698" vertical-scroll-proportion="-13.75">
+            <state line="28" column="35" selection-start="866" selection-end="866" vertical-scroll-proportion="-11.166667">
               <folding />
             </state>
           </provider>
@@ -99,7 +99,7 @@
       <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="476" selection-end="476" vertical-scroll-proportion="0.6530899">
+            <state line="20" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.33707866">
               <folding />
             </state>
           </provider>
@@ -108,10 +108,8 @@
       <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1374979245000" expanded="true" signature="696:767" placeholder="{...}" />
-              </folding>
+            <state line="8" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -498,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -519,25 +510,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/app.css">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1374979245000" expanded="true" signature="696:767" placeholder="{...}" />
-          </folding>
+        <state line="28" column="35" selection-start="866" selection-end="866" vertical-scroll-proportion="-11.166667">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/sass/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="698" selection-end="698" vertical-scroll-proportion="-13.75">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="476" selection-end="476" vertical-scroll-proportion="0.6530899">
+        <state line="20" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.33707866">
           <folding />
         </state>
       </provider>
