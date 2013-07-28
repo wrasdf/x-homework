@@ -6,7 +6,39 @@
     <link href="css/app.css" media="screen" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div></div>
+    <div class="wrapper">
+        <div class="main-container">
+            <header>
+                <ul class="category-list">
+                    <li>Contacts</li>
+                    <li>Domains</li>
+                    <li>Hosts</li>
+                </ul>
+                <h1>Manage Domains</h1>
+            </header>
+            <ul class="zone-list">
+                <li>
+                   <h2>Sample domain zone1</h2>
+                   <section>
+                       <h3>Names servers</h3>
+                       <ul class="list">
+                           <li> <span> name server 1</span> <span class="close"></span> </li>
+                           <li> <span> name server 2</span> <span class="close"></span> </li>
+                           <li> <span> name server 3</span> <span class="close"></span> </li>
+                       </ul>
+                       <input type="button" value="add" />
+                   </section>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <h3>Summary</h3>
+            <ul>
+                <li>Zone1  2</li>
+                <li>Zone2  2</li>
+            </ul>
+        </div>
+    </div>
 </body>
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
