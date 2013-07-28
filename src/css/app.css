@@ -1,1 +1,9 @@
-.te { -webkit-background-size: 3; }
+.wrapper { padding: 10px; }
+
+.sidebar { width: 300px; float: right; padding: 0 20px 0; }
+
+.main-container { margin-right: 300px; }
+.main-container header .category-list { display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-orient: horizontal; -moz-box-orient: horizontal; -ms-box-orient: horizontal; box-orient: horizontal; -webkit-box-align: stretch; -moz-box-align: stretch; -ms-box-align: stretch; box-align: stretch; border: 1px #000 solid; }
+.main-container header .category-list li { border-left: 1px #000 solid; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; text-align: center; line-height: 50px; }
+.main-container header .category-list li:first-child { border-left: 0; }
+.main-container header h1 { line-height: 50px; font-size: 30px; text-align: center; }

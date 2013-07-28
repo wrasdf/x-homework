@@ -1,1 +1,53 @@
-.te{-webkit-background-size: 3;}
+@import "compass/css3";
+
+.wrapper {
+  padding: 10px;
+
+}
+
+.sidebar{
+  width: 300px;
+  float:right;
+  padding:0 20px 0;
+}
+
+.main-container{
+
+  margin-right: 300px;
+
+  header {
+
+    .category-list{
+
+      @include display-box;
+      @include box-orient(horizontal);
+      @include box-align(stretch);
+      //width:800px;
+      border: 1px #000 solid;
+
+      li{
+        border-left:1px #000 solid;
+        @include box-flex(1);
+        text-align: center;
+        line-height: 50px;
+      }
+
+      li:first-child{
+        border-left:0;
+      }
+
+    }
+
+    h1{
+      line-height: 50px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+  }
+
+
+
+
+
+}
