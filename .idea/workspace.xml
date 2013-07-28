@@ -4,11 +4,12 @@
     <list default="true" id="109681d3-89fd-40e3-a2d8-59bda12cba12" name="Default" comment="" />
     <ignored path="x-homework.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374982897669" ignored="false" />
+    <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984639370" ignored="false" />
     <file path="/compass.config" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974246695" ignored="false" />
     <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974649515" ignored="false" />
-    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374983021311" ignored="false" />
+    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984618753" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
+    <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374985509976" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +70,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="53" selection-start="736" selection-end="736" vertical-scroll-proportion="0.5232558">
-              <folding />
+            <state line="38" column="29" selection-start="922" selection-end="1421" vertical-scroll-proportion="-11.166667">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +102,7 @@
       <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="18" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+            <state line="166" column="16" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +111,7 @@
       <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="120" column="96" selection-start="2990" selection-end="2990" vertical-scroll-proportion="0.5575843">
               <folding />
             </state>
           </provider>
@@ -152,7 +155,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/index1.html" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/compass.config" />
         <option value="$PROJECT_DIR$/src/config/compass.rb" />
         <option value="$PROJECT_DIR$/src/stylesheets/app.css" />
@@ -161,14 +163,15 @@
         <option value="$PROJECT_DIR$/src/css/app.css" />
         <option value="$PROJECT_DIR$/src/sass/common.scss" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/app.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="22" />
+    <option name="x" value="66" />
+    <option name="y" value="58" />
     <option name="width" value="1420" />
     <option name="height" value="860" />
   </component>
@@ -241,6 +244,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,7 +409,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="22" width="1420" height="860" extended-state="0" />
+    <frame x="66" y="58" width="1420" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,13 +499,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="24" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
@@ -519,21 +529,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+        <state line="166" column="16" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="53" selection-start="736" selection-end="736" vertical-scroll-proportion="0.5232558">
+        <state line="38" column="29" selection-start="922" selection-end="1421" vertical-scroll-proportion="-11.166667">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="96" selection-start="2990" selection-end="2990" vertical-scroll-proportion="0.5575843">
           <folding />
         </state>
       </provider>
