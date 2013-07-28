@@ -1,5 +1,24 @@
 @import "compass";
 
+$radius : 3px;
+$blueBackground : #428bca;
+$white : #fff;
+$gray : #ddd;
+$black : #393939;
+
+html{color:$black; font-size: 14px; }
+
+input[type="button"]{
+  min-width: 80px;
+  @include border-radius($radius);
+  background: #d5d5d5;
+  color:#555;
+  border: 0;
+  padding: 5px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
 .clear{clear:both;font-size: 0;line-height: 0;}
 .clearfix {
   *zoom: 1;
@@ -30,12 +49,14 @@
 
   section {
 
-    border: 1px #000 solid;
+    border: 1px $black solid;
+    @include border-radius($radius);
 
     h3{
-      border-bottom: 1px #000 solid;
       line-height: 30px;
       padding-left: 5px;
+      background: $blueBackground;
+      color: $white;
     }
 
     ul{
@@ -56,26 +77,36 @@
 
   margin-right: 300px;
   padding-right: 20px;
-  border-right: 1px #000 solid;
+  border-right: 1px $black solid;
 
   header {
 
     .category-list{
-      display: block;
       @include display-box;
       @include box-orient(horizontal);
       @include box-align(stretch);
-      border: 1px #000 solid;
+      @include border-radius($radius);
+      background: #222;
+      color:#999;
 
       li{
-        border-left:1px #000 solid;
         @include box-flex(1);
         text-align: center;
         line-height: 50px;
       }
 
-      li:first-child{
-        border-left:0;
+      li.active{
+        @include box-flex(1);
+        text-align: center;
+        line-height: 50px;
+        background: #080808;
+        color:#fff;
+      }
+
+      li:hover{
+        background: #080808;
+        color:#fff;
+        cursor: pointer;
       }
 
     }
@@ -84,6 +115,7 @@
       line-height: 50px;
       font-size: 30px;
       text-align: center;
+      margin: 20px 0 20px 0;
     }
 
   }
@@ -92,15 +124,20 @@
 
 
     & > li{
+
       @extend .clearfix;
-      border: 1px #000 solid;
+
+      border: 1px $black solid;
+      @include border-radius($radius);
       margin-top: 10px;
 
       h2{
         line-height: 30px;
         text-align: left;
-        border-bottom: 1px #000 solid;
+        border-bottom: 1px $blueBackground solid;
         padding-left: 10px;
+        background: $blueBackground;
+        color:#fff;
       }
 
       section{
@@ -108,7 +145,7 @@
         @include box-sizing(border-box);
         float: left;
         width:33.33%;
-        border-left: 1px #000 solid;
+        border-left: 1px $gray solid;
         padding:10px;
 
         h3{
@@ -126,9 +163,13 @@
 
             .close{
               float: right;
-              line-height: 15px;
-              font-size: 15px;
-              border: 1px #000 solid;
+              line-height: 12px;
+              font-size: 12px;
+              //border: 1px $black solid;
+              background: $gray;
+              @include border-radius($radius);
+              display: inline-block;
+              padding:2px 4px;
               margin:5px 20px 0 0;
               cursor: pointer;
             }
@@ -138,12 +179,7 @@
         }
 
         input[type=button] {
-
-          border: 1px #000 solid;
-          padding: 5px;
-          margin: 0;
-          cursor: pointer;
-
+          margin: 10px 0 0 0;
         }
 
 
@@ -164,11 +200,22 @@
 .dialog{
 
   width:30%;
-  border: 1px #000 solid;
+  border: 1px #333 solid;
+  @include border-radius($radius);
+  @include box-shadow($black 2px 2px 10px);
   padding: 10px;
   background: #fff;
   position: absolute;
   display: none;
+
+  dl{
+
+    dt{
+      line-height: 25px;
+      font-weight: bold;
+    }
+
+  }
 
   input[type="text"] {
     @include box-sizing(border-box);
@@ -179,9 +226,8 @@
 
   input[type="button"] {
     float: left;
+    margin-top: 10px;
     margin-left: 20px;
-    border: 1px #000 solid;
-    background: #ccc;
   }
 
   input[type="button"]:nth-child(2){
@@ -223,14 +269,24 @@
         section{
           width:100%;
           border: 0px;
-          border-bottom: 1px #ddd solid;
+          border-bottom: 1px $gray solid;
+
+          input[type=button]{
+            clear: both;
+            margin: 10px 0 0 0;
+            width: 100%;
+          }
+
+          .close{ margin-right: 0 !important;}
+
         }
         section:nth-child(2){
-          border-bottom: 1px #ddd solid;
+          border-bottom: 1px $gray solid;
         };
         section:last-child{
-          border-bottom: 0px #000 solid;
+          border-bottom: 0px;
         };
+
       }
     }
 
@@ -238,7 +294,7 @@
 
   .dialog{
 
-    width: 68%;
+    width: 80%;
 
   }
 

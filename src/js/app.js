@@ -222,7 +222,7 @@ function ZoneSection (options){
 ZoneSection.prototype = {
 
     _render : function(){
-        this.$parent = $('<section><h3>'+this.config.data.name+'</h3><ul class="list"></ul><input type="button" value="add" id="dataAdd" /></section>');
+        this.$parent = $('<section><h3>'+this.config.data.name+'</h3><ul class="list"></ul><input type="button" value="Add" id="dataAdd" /></section>');
         var itemsDom = "";
         $.each(this.config.data.list,function(index,item){
             itemsDom += '<li><span>'+item.name+'</span><span class="close" index="'+index+'" >X</span> </li>';
