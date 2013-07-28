@@ -53,9 +53,9 @@ var data = [
                 type : "technical",
                 name : "Technical contact",
                 list : [
-                    {"name" : "Contact1"},
-                    {"name" : "Contact2"},
-                    {"name" : "Contact3"}
+                    {"name" : "Contact4"},
+                    {"name" : "Contact5"},
+                    {"name" : "Contact6"}
                 ]
             }
         ]
@@ -84,9 +84,9 @@ var data = [
                 type : "technical",
                 name : "Technical contact",
                 list : [
-                    {"name" : "Contact1"},
-                    {"name" : "Contact2"},
-                    {"name" : "Contact3"}
+                    {"name" : "Contact7"},
+                    {"name" : "Contact8"},
+                    {"name" : "Contact9"}
                 ]
             }
         ]
@@ -231,7 +231,7 @@ ZoneSection.prototype = {
         this.$parent = $('<section><h3>'+this.config.data.name+'</h3><ul class="list"></ul><input type="button" value="add" id="dataAdd" /></section>');
         var itemsDom = "";
         $.each(this.config.data.list,function(index,item){
-            itemsDom += '<li><span>'+item.name+'</span><span class="close">X</span> </li>';
+            itemsDom += '<li><span>'+item.name+'</span><span class="close" index="'+index+'" >X</span> </li>';
         });
         this.$parent.find("ul").html(itemsDom);
         this.$parent.appendTo(this.config.wrapper);
@@ -243,18 +243,42 @@ ZoneSection.prototype = {
 
         var self = this;
 
-        this.$parent.find("input#dataAdd").bind("click",function(e){
+        this.$parent.delegate("input#dataAdd","click",function(e){
             new ResourceDialog().show($(e.target) ,self.addResource, self);
         });
 
-        this.$parent.find("li .close").bind("click",function(e){
-            $(this).parent().remove();
+        this.$parent.delegate("li .close","click",function(e){
+            self.removeResource($(this));
         });
 
     },
 
+    reorderDomList : function (){
+        var itemsDom = "";
+        $.each(this.config.data.list,function(index,item){
+            itemsDom += '<li><span>'+item.name+'</span><span class="close" index="'+index+'" >X</span> </li>';
+        });
+        this.$parent.find("ul").html(itemsDom);
+    },
+
     addResource : function( name ){
         this.$parent.find("ul").append('<li><span>'+name+'</span><span class="close">X</span> </li>');
+        this.addData2Config(name);
+    },
+
+    addData2Config : function (name){
+        this.config.data.list.push({"name" : name});
+    },
+
+    removeResource : function (dom){
+        var domIndex = dom.attr("index");
+        this.removeData2ConfigByIndex(domIndex);
+        dom.parent().remove();
+        this.reorderDomList();
+    },
+
+    removeData2ConfigByIndex : function (index){
+        this.config.data.list.splice(index,1);
     }
 
 }
