@@ -9,7 +9,7 @@
     <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974649515" ignored="false" />
     <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984618753" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
-    <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374989648457" ignored="false" />
+    <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374990219336" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="50" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-10.541667">
+            <state line="14" column="44" selection-start="388" selection-end="457" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -136,11 +136,8 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="0" selection-start="6234" selection-end="6234" vertical-scroll-proportion="3.918455">
-              <folding>
-                <element signature="n#!!block;n#ResourceDialog#0" expanded="false" />
-                <element signature="e#1987#3413#0" expanded="false" />
-              </folding>
+            <state line="70" column="5" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.48497853">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -546,18 +543,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="50" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-10.541667">
+        <state line="14" column="44" selection-start="388" selection-end="457" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="6234" selection-end="6234" vertical-scroll-proportion="3.918455">
-          <folding>
-            <element signature="n#!!block;n#ResourceDialog#0" expanded="false" />
-            <element signature="e#1987#3413#0" expanded="false" />
-          </folding>
+        <state line="70" column="5" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.48497853">
+          <folding />
         </state>
       </provider>
     </entry>

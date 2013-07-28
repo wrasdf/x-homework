@@ -30,43 +30,70 @@ var data = [
         ]
     },
     {
-        type : "zone2" , sections : [
-        {
-            type : "servers",
-            name : "Name servers",
-            list : [
-                {"name" : "name server"},
-                {"name" : "name server"},
-                {"name" : "name server"}
-            ]
-        },
-        {
-            type : "registrant",
-            name : "Registrant contact",
-            list : [
-                {"name" : "Contact1"},
-                {"name" : "Contact2"}
-            ]
-        },
-        {
-            type : "technical",
-            name : "Technical contact",
-            list : [
-                {"name" : "Contact1"},
-                {"name" : "Contact2"},
-                {"name" : "Contact3"}
-            ]
-        }
-    ]
+        type : "zone2" ,
+        sections : [
+            {
+                type : "servers",
+                name : "Name servers",
+                list : [
+                    {"name" : "name server"},
+                    {"name" : "name server"},
+                    {"name" : "name server"}
+                ]
+            },
+            {
+                type : "registrant",
+                name : "Registrant contact",
+                list : [
+                    {"name" : "Contact1"},
+                    {"name" : "Contact2"}
+                ]
+            },
+            {
+                type : "technical",
+                name : "Technical contact",
+                list : [
+                    {"name" : "Contact1"},
+                    {"name" : "Contact2"},
+                    {"name" : "Contact3"}
+                ]
+            }
+        ]
+    },
+    {
+        type : "zone2" ,
+        sections : [
+            {
+                type : "servers",
+                name : "Name servers",
+                list : [
+                    {"name" : "name server"},
+                    {"name" : "name server"},
+                    {"name" : "name server"}
+                ]
+            },
+            {
+                type : "registrant",
+                name : "Registrant contact",
+                list : [
+                    {"name" : "Contact1"},
+                    {"name" : "Contact2"}
+                ]
+            },
+            {
+                type : "technical",
+                name : "Technical contact",
+                list : [
+                    {"name" : "Contact1"},
+                    {"name" : "Contact2"},
+                    {"name" : "Contact3"}
+                ]
+            }
+        ]
     }
 ]
 
 
-
-function pageController (sideBarManager,zoneManager){
-    this.sideBarManager = sideBarManager;
-    this.zoneManager = zoneManager;
-}
 
 function ResourceDialog() {
     this.wrapper = $('.dialog');
@@ -234,10 +261,38 @@ ZoneSection.prototype = {
 
 }
 
+function SideBarManager(options){
+    this.wrapper = $(".sidebar ul");
+    this.data = options.data;
+    this.update();
+}
+SideBarManager.prototype = {
+    update : function (){
+        var zone1 = 0 , zone2 = 0;
 
-new ZoneManager({
-    data : data
-});
+        $.each(data,function(i,v){
+            if(v.type == "zone1"){
+                zone1 ++;
+            }else{
+                zone2 ++;
+            }
+        })
+
+        this.wrapper.html('<li>Zone1  '+zone1+'</li><li>Zone2  '+zone2+'</li>');
+    }
+};
+
+$(function(){
+    new ZoneManager({
+        data : data
+    });
+    new SideBarManager({
+        data : data
+    });
+})
+
+
+
 
 
 
