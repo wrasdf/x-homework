@@ -4,12 +4,14 @@
     <list default="true" id="109681d3-89fd-40e3-a2d8-59bda12cba12" name="Default" comment="" />
     <ignored path="x-homework.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984639370" ignored="false" />
+    <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374993154002" ignored="false" />
     <file path="/compass.config" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974246695" ignored="false" />
     <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974649515" ignored="false" />
     <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984618753" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
     <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374991727597" ignored="false" />
+    <file path="/SpecRunner.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374992415601" ignored="false" />
+    <file path="/appSpec.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374993458713" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +72,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="509" selection-end="509" vertical-scroll-proportion="-10.625">
+            <state line="263" column="9" selection-start="7153" selection-end="7164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-template.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index-template.html">
+      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="51" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-23.125">
+            <state line="8" column="18" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="43" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-20.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appSpec.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/spec/appSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="7" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.5898876">
+              <folding>
+                <element signature="e#108#2228#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,70 +113,7 @@
       <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="54" selection-start="568" selection-end="568" vertical-scroll-proportion="-8.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="25" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="46" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="42" selection-start="6841" selection-end="6841" vertical-scroll-proportion="-0.19822486">
+            <state line="14" column="38" selection-start="656" selection-end="656" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -181,9 +140,11 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/src/index-template.html" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/js/init.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/test/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/test/spec/appSpec.js" />
       </list>
     </option>
   </component>
@@ -309,6 +270,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/lib/jasmine-1.3.1" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/sass" />
     </key>
@@ -534,16 +496,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/app.css">
+    <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
+        <state line="162" column="25" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/common.css">
+    <entry file="file://$PROJECT_DIR$/test/lib/jasmine-1.3.1/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="51" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.075187966">
           <folding />
         </state>
       </provider>
@@ -555,38 +524,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/src/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="25" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
+        <state line="15" column="28" selection-start="958" selection-end="958" vertical-scroll-proportion="0.32188842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.42918456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="509" selection-end="509" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="51" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-23.125">
+        <state line="32" column="43" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-20.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="568" selection-end="568" vertical-scroll-proportion="-8.75">
+        <state line="14" column="38" selection-start="656" selection-end="656" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="42" selection-start="6841" selection-end="6841" vertical-scroll-proportion="-0.19822486">
+        <state line="263" column="9" selection-start="7153" selection-end="7164" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/appSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="7" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.5898876">
+          <folding>
+            <element signature="e#108#2228#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
