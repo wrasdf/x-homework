@@ -9,7 +9,7 @@
     <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974649515" ignored="false" />
     <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374984618753" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
-    <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374990219336" ignored="false" />
+    <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374990336138" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +70,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="388" selection-end="457" vertical-scroll-proportion="-8.75">
+            <state line="37" column="7" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.80668604">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-template.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index-template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="51" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-23.125">
               <folding />
             </state>
           </provider>
@@ -133,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="5" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.48497853">
+            <state line="279" column="8" selection-start="7449" selection-end="7449" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,8 +171,9 @@
         <option value="$PROJECT_DIR$/src/sass/common.scss" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/sass/app.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/index-template.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -289,6 +299,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/sass" />
     </key>
   </component>
@@ -541,16 +552,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="388" selection-end="457" vertical-scroll-proportion="-8.75">
+        <state line="279" column="8" selection-start="7449" selection-end="7449" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+    <entry file="file://$PROJECT_DIR$/src/index-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="5" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.48497853">
+        <state line="37" column="51" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-23.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="7" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.80668604">
           <folding />
         </state>
       </provider>

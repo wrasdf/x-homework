@@ -147,7 +147,6 @@ ResourceDialog.prototype = {
     },
     save : function() {
         var self = this;
-        console.log(self.callContext, self.resources.val());
         self.successCallback.call(self.callContext, self.resources.val());
         self.cancel();
     },
@@ -198,10 +197,10 @@ ZoneManager.prototype = {
         $.each(this.config.data,function(index,item){
             var zoneDom = $('<li><h2>Sample domain '+item.type+'</h2></li>');
             zoneList.append(zoneDom);
-            $.each(item.sections,function(i,s){
+            $.each(item.sections,function(i,d){
                 new ZoneSection({
                     wrapper: zoneDom,
-                    data: s
+                    data: d
                 });
             });
         })
@@ -222,7 +221,6 @@ function ZoneSection (options){
             ]
         }
     },options || {});
-
     this._render();
 
 }
@@ -266,10 +264,10 @@ function SideBarManager(options){
     this.data = options.data;
     this.update();
 }
+
 SideBarManager.prototype = {
     update : function (){
         var zone1 = 0 , zone2 = 0;
-
         $.each(data,function(i,v){
             if(v.type == "zone1"){
                 zone1 ++;
@@ -277,7 +275,6 @@ SideBarManager.prototype = {
                 zone2 ++;
             }
         })
-
         this.wrapper.html('<li>Zone1  '+zone1+'</li><li>Zone2  '+zone2+'</li>');
     }
 };
