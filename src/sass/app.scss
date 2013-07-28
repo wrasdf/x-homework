@@ -82,17 +82,19 @@ input[type="button"]{
   header {
 
     .category-list{
-      @include display-box;
+      //@include display-box;
       @include box-orient(horizontal);
       @include box-align(stretch);
       @include border-radius($radius);
+      @extend .clearfix;
       background: #222;
       color:#999;
 
       li{
-        @include box-flex(1);
+        width:33.33%;
         text-align: center;
         line-height: 50px;
+        float: left;
       }
 
       li.active{

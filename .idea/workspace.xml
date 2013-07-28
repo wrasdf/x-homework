@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375020363164" ignored="false" />
     <file path="/compass.config" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374974246695" ignored="false" />
     <file path="/config.rb" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375014562046" ignored="false" />
-    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375022988693" ignored="false" />
+    <file path="/app.scss" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375024980822" ignored="false" />
     <file path="/README" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374977582360" ignored="false" />
     <file path="/app.js" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1375022871017" ignored="false" />
     <file path="/SpecRunner.html" changelist="109681d3-89fd-40e3-a2d8-59bda12cba12" time="1374992415601" ignored="false" />
@@ -73,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="41" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.28550297">
+            <state line="97" column="32" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!block;n#ZoneManager#0" expanded="false" />
                 <element signature="e#5351#5792#0" expanded="false" />
@@ -97,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="39" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.0">
+            <state line="88" column="24" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.6313498">
               <folding />
             </state>
           </provider>
@@ -148,8 +148,11 @@
       <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="5333" selection-end="5333" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="50" column="0" selection-start="5394" selection-end="5394" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1375024985000" expanded="true" signature="1648:2085" placeholder="{...}" />
+                <marker date="1375024985000" expanded="true" signature="2166:2277" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/index-template.html" />
         <option value="$PROJECT_DIR$/src/sass/common.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -651,21 +654,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="5333" selection-end="5333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="39" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="50" column="0" selection-start="5394" selection-end="5394" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1375024985000" expanded="true" signature="1648:2085" placeholder="{...}" />
+            <marker date="1375024985000" expanded="true" signature="2166:2277" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="41" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.28550297">
+        <state line="97" column="32" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!block;n#ZoneManager#0" expanded="false" />
             <element signature="e#5351#5792#0" expanded="false" />
@@ -673,6 +672,13 @@
             <element signature="n#!!block;n#SideBarManager#0" expanded="false" />
             <element signature="e#8012#8329#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="24" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.6313498">
+          <folding />
         </state>
       </provider>
     </entry>

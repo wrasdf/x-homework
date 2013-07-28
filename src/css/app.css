@@ -4,9 +4,9 @@ input[type="button"] { min-width: 80px; -webkit-border-radius: 3px; -moz-border-
 
 .clear { clear: both; font-size: 0; line-height: 0; }
 
-.clearfix, .main-container, .main-container .zone-list > li { *zoom: 1; }
-.clearfix:before, .main-container:before, .main-container .zone-list > li:before, .clearfix:after, .main-container:after, .main-container .zone-list > li:after { display: table; line-height: 0; content: ""; }
-.clearfix:after, .main-container:after, .main-container .zone-list > li:after { clear: both; }
+.clearfix, .main-container, .main-container header .category-list, .main-container .zone-list > li { *zoom: 1; }
+.clearfix:before, .main-container:before, .main-container header .category-list:before, .main-container .zone-list > li:before, .clearfix:after, .main-container:after, .main-container header .category-list:after, .main-container .zone-list > li:after { display: table; line-height: 0; content: ""; }
+.clearfix:after, .main-container:after, .main-container header .category-list:after, .main-container .zone-list > li:after { clear: both; }
 
 .wrapper { padding: 20px; position: relative; }
 
@@ -17,8 +17,8 @@ input[type="button"] { min-width: 80px; -webkit-border-radius: 3px; -moz-border-
 .sidebar section ul li { padding: 5px; line-height: 20px; }
 
 .main-container { margin-right: 300px; padding-right: 20px; border-right: 1px #393939 solid; }
-.main-container header .category-list { display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-orient: horizontal; -moz-box-orient: horizontal; -ms-box-orient: horizontal; box-orient: horizontal; -webkit-box-align: stretch; -moz-box-align: stretch; -ms-box-align: stretch; box-align: stretch; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: #222; color: #999; }
-.main-container header .category-list li { -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; text-align: center; line-height: 50px; }
+.main-container header .category-list { -webkit-box-orient: horizontal; -moz-box-orient: horizontal; -ms-box-orient: horizontal; box-orient: horizontal; -webkit-box-align: stretch; -moz-box-align: stretch; -ms-box-align: stretch; box-align: stretch; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: #222; color: #999; }
+.main-container header .category-list li { width: 33.33%; text-align: center; line-height: 50px; float: left; }
 .main-container header .category-list li.active { -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; text-align: center; line-height: 50px; background: #080808; color: #fff; }
 .main-container header .category-list li:hover { background: #080808; color: #fff; cursor: pointer; }
 .main-container header h1 { line-height: 50px; font-size: 30px; text-align: center; margin: 20px 0 20px 0; }
