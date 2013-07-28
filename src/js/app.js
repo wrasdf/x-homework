@@ -114,7 +114,7 @@ ResourceDialog.prototype = {
     },
     setPositionByDom:function(dom) {
         var position = $(dom).position();
-        this.wrapper.css({left:position.left,top:position.top});
+        this.wrapper.css({left:position.left,top:position.top + 40});
     },
     _bind:function() {
 

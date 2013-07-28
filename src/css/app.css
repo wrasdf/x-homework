@@ -27,15 +27,16 @@
 .main-container .zone-list > li section:nth-child(2) { border: 0; }
 .main-container .zone-list > li:first-child { margin: 0; }
 
-.dialog { width: 25%; border: 1px #000 solid; padding: 10px; background: #fff; position: absolute; display: none; }
+.dialog { width: 30%; border: 1px #000 solid; padding: 10px; background: #fff; position: absolute; display: none; }
 .dialog input[type="text"] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; padding: 5px; margin: 5px 0; }
 .dialog input[type="button"] { float: left; margin-left: 20px; border: 1px #000 solid; background: #ccc; }
 .dialog input[type="button"]:nth-child(2) { margin-left: 0; }
 
 @media all and (max-width: 960px) { .sidebar { clear: both; width: 100%; position: static; padding: 0px; margin: 20px 0 20px 20px; }
-  .main-container { width: 100%; } }
+  .main-container { width: 100%; border: 0px; } }
 @media all and (max-width: 640px) { .sidebar { clear: both; width: 100%; position: static; padding: 0px; margin: 20px 0 20px 20px; }
   .main-container { width: 100%; }
   .main-container .zone-list li section { width: 100%; border: 0px; border-bottom: 1px #ddd solid; }
   .main-container .zone-list li section:nth-child(2) { border-bottom: 1px #ddd solid; }
-  .main-container .zone-list li section:last-child { border-bottom: 0px #000 solid; } }
+  .main-container .zone-list li section:last-child { border-bottom: 0px #000 solid; }
+  .dialog { width: 68%; } }
